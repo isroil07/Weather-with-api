@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head_desc">
+            <div>
+                <h1 style="color:cadetblue;">My weather</h1>
+            </div>
+            <div class="inp_wrap"> <input type="text"></div>
+        </div>
+        <div class="select_wrap">
+            <div class="dated" id="houred">
+                <h2>Today</h2>
+            </div>
+            <div class="dated" id="five_day">
+                <h2>5-day forecast</h2>
+            </div>
+        </div>
+
+        <div class="parent">
+            <div class="cur_wrap" id="cur_wrap">
+                <div class="current_weather">
+                    <div>
+                        <h2>Current weather</h2>
+                    </div>
+                    <div class="wrapper">
+                        <div id="icons"></div>
+                        <div id="tempr"></div>
+                        <div id="sunrise"></div>
+                    </div>
+    
+                </div>
+                <div style="margin-top: 30px;">
+                    <div class="current_weather">
+                        <h2>Hourly</h2>
+                        <div class="today" id="todays" >
+                            <div>
+                                <h3>Today</h3>
+                              
+                            </div>
+                        </div>
+                        <div class="today" id="forcats">
+                       <p>Forecast</p>
+                        </div>
+                        <div class="today" id="tempred">
+                            <p>Temp (C)</p>
+                             </div>
+                             <div class="today" id="feels">
+                                <p>RealFeel</p>
+                             </div>
+                             <div class="today" id="wind">
+                                <p>Wind(km/h)</p>
+                             </div>
+                    </div>
+                </div>
+            </div>
+            <div class="five_wrap" id="fwrap">
+                <div class="card_cont"  id="card_cont">
+                   
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="./js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.head_desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.select_wrap {
+    padding: 0;
+    display: flex;
+    background-color: dimgray;
+    color: white;
+}
+
+.dated {
+    padding: 0px 15px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s linear;
+
+}
+.dated:hover {
+    border-bottom: 2px solid cadetblue;
+}
+.parent {
+    background-color: lightgray;
+    padding: 30px;
+}
+
+.current_weather {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.musor {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.today {
+    display: flex;
+    justify-content: space-between;
+}
+.directed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 42px;
+}
+.ter {
+    margin-right: 20px;
+}
+.mrg {
+    margin-right: 50px;
+}
+.card_cont {
+    display: flex;
+}
+.cards {
+    background-color: white;
+    text-align: center;
+  
+}
+/* .cards h2 {
+    text-align: center;
+}
+.cards h2 {
+    text-align: center;
+} */
+/* .inp_wrap {
+    margin-top: 30px;
+} */
